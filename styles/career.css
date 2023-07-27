@@ -1,0 +1,40 @@
+#career {
+  width: 80%;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+#career img {
+  max-width: 450px;
+  max-height: 100%;
+  margin-right: 3rem;
+  object-fit: cover;
+  border-radius: 2px;
+}
+#left img {
+  margin-left: 3rem;
+  float: right;
+  margin-right: 0;
+}
+#career p {
+  line-height: 1.5;
+}
+#career div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+@media (max-width: 1024px) {
+  #career img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  #career {
+    width: 95%;
+  }
+  #career img {
+    max-width: 350px;
+  }
+}
